@@ -1,3 +1,15 @@
+ Body {
+    background-color: darkgoldenrod;
+ }
 h1 {
-    color: red
+    color:rgb(6, 39, 109);
+    font-family: 'Lobster', cursive;
+     }
+h2 {
+    color:rgb(6, 39, 109);
+    font-family: 'Mountains of Christmas', cursive;
+}
+h4 {
+    color:rgb(6, 39, 109);
+    font-family: 'Acme', sans-serif;
 }
