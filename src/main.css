@@ -1,9 +1,15 @@
  Body {
     background-color: darkgoldenrod;
+    
+ }
+ section {
+     margin-left: 75px;
+     
  }
 h1 {
     color:rgb(6, 39, 109);
     font-family: 'Lobster', cursive;
+    text-align: center;
      }
 h2 {
     color:rgb(6, 39, 109);
@@ -12,4 +18,10 @@ h2 {
 h4 {
     color:rgb(6, 39, 109);
     font-family: 'Acme', sans-serif;
+}
+button{
+    border: 10px rgb(6, 39, 109);
+    height: 40px;
+    width: 50px;
+    font-size: inherit;
 }
