@@ -35,7 +35,7 @@ let i;
       let i;
       for (i = 0; i < arrayLength; i++){
           guessesRemainding = (i + 1);
-          3 more tries + guessesRemainding + 
+          3 more tries + guessesRemainding +  
           
 
 
