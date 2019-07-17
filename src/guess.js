@@ -10,24 +10,25 @@ let guess = 0;
 numberDisplay.addEventListener('submit', () => {
     guess += 1;
     numberDisplay.textContent = guessNumber(guess);
-    if(guess === 6) {
+    if (guess === 6) {
         youWin.classList.remove('hidden');
         yourGuess.disabled = true;
     }
-    if else('guess < 6') {
+    if else {
+        guess < 6
         tryAgain.classList.remove('hidden');
     }
-{   else( )
-    gameOver.classList.remove('hidden');
-
-}
-
-    
+   else {
+        gameOver.classList.remove('hidden');
 
 
 
 
-})
+
+
+
+
+    })
 
 
 
