@@ -1,0 +1,32 @@
+Body {
+    background-color: darkgoldenrod;
+    
+ }
+ section {
+     margin-left: 75px;
+     
+ }
+ section.dog {
+     background-color: rgb(13, 82, 82)
+
+ }
+h1 {
+    color:rgb(6, 39, 109);
+    font-family: 'Lobster', cursive;
+    text-align: center;
+     }
+h2 {
+    color:rgb(6, 39, 109);
+    font-family: 'Mountains of Christmas', cursive;
+}
+h4 {
+    color:rgb(6, 39, 109);
+    font-family: 'Acme', sans-serif;
+}
+button{
+    border: 10px rgb(6, 39, 109);
+    height: 40px;
+    width: 120px;
+    font-size: inherit;
+    padding-block-start: 0vmax;
+    
