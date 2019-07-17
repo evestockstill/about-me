@@ -12,21 +12,21 @@ press.addEventListener('click', () => {
 
     let yourGuess = number.value;
     triesLeft += -1;
-    triesLeftDisplay.textContent = triesLeft;
     let result = compareNumbers(yourGuess, 6);
-console.log (result);
+    triesLeftDisplay.textContent = 'triesLeft;' + triesLeft;
 
     // numberDisplay.textContent = guessNumber(guess);
-    if (result === 0) {
+    if(result === 0) {
         youWin.classList.remove('hidden');
         yourGuess.disabled = true;
-        console.log ('you win');
+        gameOver.remove ('hidden');
+
     }
-    if else (result == -1) {
+    else if(result === -1) {
         tryAgain.classList.remove('hidden');
     }
-    if else (result == +1) {
-        gameOver.classList.remove('hidden');
-    };
+    else if(result === +1) {
+        tryAgain.classList.remove('hidden');
+    }
 
 });
