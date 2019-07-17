@@ -1,9 +1,16 @@
-function guessNumber(number) {
-    let result = '';
-    for(let i = 0; i < number; i++) {
-        result += '6';
+function compareNumbers(guess, correctNumber) {
+    if (guess === correctNumber) {
+        return 0;
     }
-    return result;
-}
+    else (guess < correctNumber); {
+        
+        return -1;
 
-export default guessNumber;
+    }
+      else (guess > corretNuber); {
+           return +1;
+    }
+
+};
+
+export default compareNumbers;
