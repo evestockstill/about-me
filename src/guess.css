@@ -1,6 +1,7 @@
 Body {
-    background-color: darkgoldenrod;
-    
+    background-image: url ("https://www.caracaschronicles.com/wp-content/uploads/2014/03/numbers.jpg");
+    /* background-color: darkgoldenrod;
+     */
  }
  section {
      margin-left: 75px;
@@ -14,10 +15,18 @@ h1 {
     color:rgb(6, 39, 109);
     font-family: 'Lobster', cursive;
     text-align: center;
+    font-size: 50px;
      }
 h2 {
     color:rgb(6, 39, 109);
     font-family: 'Mountains of Christmas', cursive;
+    font-size: 25px;
+}
+h3 {
+    color:rgb(6, 39, 109);
+    font-family: 'Mountains of Christmas', cursive;
+}
+
 }
 h4 {
     color:rgb(6, 39, 109);
@@ -29,4 +38,8 @@ button{
     width: 120px;
     font-size: inherit;
     padding-block-start: 0vmax;
-    
+}
+     .hidden {
+        visibility: hidden;
+    }
+     
