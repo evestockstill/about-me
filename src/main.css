@@ -1,6 +1,11 @@
  Body {
-    background-color: darkgoldenrod;
+     background-color: darkgoldenrod; 
+    /* background-image: url(https://img.freepik.com/free-photo/abstract-metallic-number-background_36845-85.jpg?size=626&ext=jpg) */
     
+    
+ }
+ section#input {
+     margin-bottom: 100pt
  }
  section {
      margin-left: 75px;
@@ -18,14 +23,24 @@ h1 {
 h2 {
     color:rgb(6, 39, 109);
     font-family: 'Mountains of Christmas', cursive;
+    font-size: 100px;
+}
+h3 {
+    margin-bottom: 100px
 }
 h4 {
     color:rgb(6, 39, 109);
     font-family: 'Acme', sans-serif;
+    background-color: darkgoldenrod;
 }
 button{
     border: 10px rgb(6, 39, 109);
     height: 40px;
     width: 50px;
     font-size: inherit;
+}
+button#your-guess {
+    margin-left: 190px;
+    margin-bottom: inherit
+    color: rgb(6, 39, 109);
 }
