@@ -13,18 +13,8 @@ test('returns true', function(assert) {
     assert.equal(result, expected);
 });
 
-function compareNumbers(guess, correctNumber) {
-    if (guess === correctNumber) {
-        return 0;
-    }  else  {
-        (guess < correctNumber); 
-        return -1
-    } 
-    else if {
-        (guess > correctNumber); {
-        return +1
-    }
 
-} };
+    
 
-export default compareNumbers;
+
+
