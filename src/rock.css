@@ -40,7 +40,7 @@ button{
     padding-top: 20px;
 }
 
-.radio-image {
+img.radio-image {
     border: 10px solid transparent;
     border-radius: 100%;
     width: 65px;
@@ -59,3 +59,9 @@ result:hover img {
 nav {
     text-align: left
 } 
+.invisible {
+    display: none;
+}
+.visable {
+    display: visible;
+}
