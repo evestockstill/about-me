@@ -5,15 +5,6 @@ const youWin = document.getElementById('you-win');
 const gameOver = document.getElementById('game-over');
 const tryAgain = document.getElementById('try-again');
 const number = document.getElementById('number?');
-let triesLeft = 4;
-triesLeftDisplay.textContent = triesLeft;
-
-press.addEventListener('click', () => {
-
-    let yourGuess = number.value;
-    triesLeft += -1;
-    let result = compareNumbers(yourGuess, 6);
-    triesLeftDisplay.textContent = 'triesLeft;' + triesLeft;
 
     // numberDisplay.textContent = guessNumber(guess);
     if(result === 0) {
@@ -29,4 +20,12 @@ press.addEventListener('click', () => {
         tryAgain.classList.remove('hidden');
     }
 
-});
+});let triesLeft = 4;
+triesLeftDisplay.textContent = triesLeft;
+
+press.addEventListener('click', () => {
+
+    let yourGuess = number.value;
+    triesLeft += -1;
+    let result = compareNumbers(yourGuess, 6);
+    triesLeftDisplay.textContent = 'triesLeft;' + triesLeft;

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="src/main.css">
+    <link rel="stylesheet" href="src/rock.css">
+</head>
+
+<body>
+    <header>
+        <h1>
+            ROCK PAPER SCISSORS
+        </h1>
+        <nav>
+            <a href="guess.html">guess</a>
+            <a href="rock.html">RPS</a>
+        </nav>
+    </header>
+    <main>
+        <h2>
+            Wanna Play? Throw Rock, Paper, Scissors ...
+        </h2>
+        <p>
+            <label>
+                <input type="radio" name="rock" value="rock" checked>
+                <!-- <img class="rock" src="" -->
+
+            </label>
+        </p>
+        <p>
+            <button id="play-button">Play</button>
+
+        </p>
+        <p id="message">
+            Roshambo! Make your pick and press play!
+        </p>
+        <p id="result">
+            <!-- <img id=" " -->
+        </p>
+        <p id=record>
+            <span>Wins: <span class="count" id="win-count">0</span>
+                <span>Losses: <span class="count" id="loss-count">0</span>
+        </p>
+        <script type="module" src="src/rock.js"></script>
+    </main>
+
+
+
+</body>
+
+</html>
