@@ -6,21 +6,23 @@ const gameOver = document.getElementById('game-over');
 const tryAgain = document.getElementById('try-again');
 const number = document.getElementById('number?');
 
-    // numberDisplay.textContent = guessNumber(guess);
-    if(result === 0) {
-        youWin.classList.remove('hidden');
-        yourGuess.disabled = true;
-        gameOver.remove ('hidden');
+// numberDisplay.textContent = guessNumber(guess);
+if (result === 0) {
+    youWin.classList.remove('hidden');
+    yourGuess.disabled = true;
+    gameOver.remove('hidden');
 
-    }
-    else if(result === -1) {
-        tryAgain.classList.remove('hidden');
-    }
-    else if(result === +1) {
-        tryAgain.classList.remove('hidden');
-    }
+}
+else if (result === -1) {
+    tryAgain.classList.remove('hidden');
+}
+else if (result === +1) {
+    tryAgain.classList.remove('hidden');
+}
 
-});let triesLeft = 4;
+});
+
+let triesLeft = 4;
 triesLeftDisplay.textContent = triesLeft;
 
 press.addEventListener('click', () => {
