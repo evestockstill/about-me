@@ -12,12 +12,12 @@ let losses = 0;
 shootButton.addEventListener('click', () => {
     const side = shoot();
     rockImage.classList.remove('invisible');
-    const src = 'assets/sides' + side + 'jpg';
+    const src = 'assets/' + side + 'jpg';
     rockImage.src = src;
-    const sideButton = document.querySelector('input:checked');
+    const userButton = document.querySelector('input:checked');
 })
 
-const won = sideButton.value === side;
+const won = userButton.value === rock;
 
 if (won) {
     message.textContent = 'You Win!!';
