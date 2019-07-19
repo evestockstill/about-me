@@ -20,8 +20,6 @@ else if (result === +1) {
     tryAgain.classList.remove('hidden');
 }
 
-});
-
 let triesLeft = 4;
 triesLeftDisplay.textContent = triesLeft;
 
@@ -31,3 +29,4 @@ press.addEventListener('click', () => {
     triesLeft += -1;
     let result = compareNumbers(yourGuess, 6);
     triesLeftDisplay.textContent = 'triesLeft;' + triesLeft;
+});
