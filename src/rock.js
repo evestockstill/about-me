@@ -14,10 +14,10 @@ shootButton.addEventListener('click', () => {
     const hand = shoot();
     computerImage(hand);
     const usersChoice = fetchUsersChoice();
-    
-    const tie = usersChoice.value === hand;
-    const win = usersChoice.value === 'rock' && hand === 'scissors' || usersChoice.value === 'paper' && hand === 'rock' || usersChoice.value === 'scissors' && hand === 'paper';
-    const loss = usersChoice.value === 'paper' && hand === 'scissors' || usersChoice.value === 'rock' && hand === 'paper' || usersChoice.value === 'scissors' && hand === 'rock';
+   
+    const tie = usersChoice === hand;
+    const win = usersChoice === 'rock' && hand === 'scissors' || usersChoice === 'paper' && hand === 'rock' || usersChoice === 'scissors' && hand === 'paper';
+    const loss = usersChoice === 'paper' && hand === 'scissors' || usersChoice === 'rock' && hand === 'paper' || usersChoice === 'scissors' && hand === 'rock';
     
     if(win) {
         message.textContent = 'You Win!!';
