@@ -1,22 +1,30 @@
 * {
 text-align: center;
+color: black;
+}
+
+body {
+    background-color: rgb(48, 48, 148);
 }
 
 nav {
     text-align: left
 }
 
+h1 {
+    color: black;
+}
+
 h2{
   font-size: 25px;
+  color: black;
 }
 .count {
     font-size: 35px;
 }
-#rpc {
-    display: flexbox;
-}
+
 #record  {
-font-size: 40px;
+    font-size: 40px;
 }
 label {
     display: block-center;
@@ -50,7 +58,9 @@ input:checked + .radio-image {
     
 }
 
-
+img:not(#super) {
+    height: 125px;
+}
 
 nav {
     text-align: left
