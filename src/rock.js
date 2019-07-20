@@ -1,6 +1,5 @@
 import shoot from './get-throw.js';
 
-
 const shootButton = document.getElementById('shoot-button');
 const message = document.getElementById('message');
 const winCount = document.getElementById('win-count');
@@ -39,7 +38,6 @@ function computerImage(hand){
     rockImage.classList.remove('invisible');
     rockImage.src = src;
 }
-
 function fetchUsersChoice() {
     const userButton = document.querySelector('input:checked');
     return userButton.value;
