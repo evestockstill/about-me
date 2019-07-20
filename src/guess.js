@@ -7,7 +7,7 @@ const tryAgain = document.getElementById('try-again');
 const number = document.getElementById('number?');
 
 // numberDisplay.textContent = guessNumber(guess);
-if (result === 0) {
+if(result === 0) {
     youWin.classList.remove('hidden');
     yourGuess.disabled = true;
     gameOver.remove('hidden');
