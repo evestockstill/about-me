@@ -16,8 +16,8 @@ press.addEventListener('click', () => {
     let result = compareNumbers(yourGuess, correctNumber);
     triesLeftDisplay.textContent = 'triesLeft;' + triesLeft;
 
-     numberDisplay.textContent = guessNumber(guess);
-     if(result === 0) {
+    numberDisplay.textContent = guessNumber(guess);
+    if(result === 0) {
         youWin.classList.remove('hidden');
         yourGuess.disabled = true;
         gameOver.remove ('hidden');
@@ -28,5 +28,5 @@ press.addEventListener('click', () => {
     else if(result === +1) {
         tryAgain.classList.remove('hidden');
     // }
-
+    }
 });
