@@ -1,8 +1,7 @@
  Body {
      background-color: darkgoldenrod; 
     /* background-image: url(https://img.freepik.com/free-photo/abstract-metallic-number-background_36845-85.jpg?size=626&ext=jpg) */
-    
-    
+      
  }
  section#input {
      margin-bottom: 100pt
@@ -42,5 +41,5 @@ button{
 button#your-guess {
     margin-left: 190px;
     margin-bottom: inherit
-    color: rgb(6, 39, 109);
+    color rgb(6, 39, 109);
 }
