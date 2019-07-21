@@ -1,27 +1,27 @@
 import compareNumbers from '../src/guessnumber.js';
-const press = document.getElementById('press');
-const triesLeftDisplay = document.getElementById('tries-left');
-const youWin = document.getElementById('you-win');
-const gameOver = document.getElementById('game-over');
-const tryAgain = document.getElementById('try-again');
+const submitButton = document.getElementById('submitButton');
+const triesLeftDisplay = document.getElementById('triesLeft');
+const youWin = document.getElementById('youWin');
+const gameOver = document.getElementById('gameOver');
+const tryAgain = document.getElementById('tryAgain');
 const number = document.getElementById('number?');
 let correctNumber = 6;
 let triesLeft = 4;
+
 triesLeftDisplay.textContent = triesLeft;
 
-press.addEventListener('click', () => {
+submitButton.addEventListener('click', () => {
 
-    let yourGuess = number.value;
+    let guess = number.value;
     triesLeft += -1 > 0;
-    let result = compareNumbers(yourGuess, correctNumber);
+    let result = compareNumbers(guess, correctNumber);
     triesLeftDisplay.textContent = 'triesLeft;' + triesLeft;
 
     // numberDisplay.textContent = guessNumber(guess);
     if(result === 0) {
         youWin.classList.remove('hidden');
-        yourGuess.disabled = true;
+        guess.disabled = true;
         gameOver.remove ('hidden');
-
     }
     else if(result === -1) {
         tryAgain.classList.remove('hidden');
