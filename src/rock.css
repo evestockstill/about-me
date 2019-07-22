@@ -47,8 +47,7 @@ img.radio-image {
     width: 65px;
 }
 input:checked + .radio-image { 
-    border: 15px solid rgb(43, 6, 6); 
-    
+    border-color: black;
 }
 img:not(#super) {
     height: 125px;
