@@ -1,4 +1,4 @@
-import compareNumbers from './src/guessnumber.js';
+import compareNumbers from '../src/guessnumber.js';
 
 const test = QUnit.test;
 
