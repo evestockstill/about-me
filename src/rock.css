@@ -1,0 +1,64 @@
+* {
+text-align: center;
+color: black;
+
+}
+body {
+    background-color: rgb(48, 48, 148);
+}
+nav {
+    text-align: left
+}
+h1 {
+    color: black;
+}
+h2{
+  font-size: 25px;
+  color: black;
+}
+.count {
+    font-size: 35px;
+    text-align: inherit;
+}
+#record  {
+    font-size: 35px;
+    padding: inherit;
+}
+label {
+    display: block-center;
+    cursor: pointer;
+}
+input {
+    display: none;
+}
+button{
+    border: 10px rgb(6, 39, 109);
+    height: 40px;
+    width: 120px;
+    font-size: inherit;  
+}
+#message {
+    font-size: 25px;
+}
+
+img.radio-image {
+    border: 10px solid transparent;
+    border-radius: 100%;
+    width: 65px;
+}
+input:checked + .radio-image { 
+    border-color: black;
+}
+img:not(#super) {
+    height: 125px;
+}
+img {border:solid 5px red; margin:10px;}
+.selected{
+   box-shadow:40px 12px 50px 20px rgb(148, 9, 9);
+}
+.invisible {
+    display: none;
+}
+.visable {
+    display: visible;
+}
