@@ -1,4 +1,4 @@
-import compareNumbers from '../src/guessnumber.js';
+import compareNumbers from './src/guessnumber.js';
 const submitButton = document.getElementById('submitButton');
 const triesLeftDisplay = document.getElementById('triesLeft');
 const youWin = document.getElementById('youWin');
