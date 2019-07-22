@@ -1,41 +1,36 @@
 
 
- section {
-     margin-left: 75px;
-     
- }
- section.dog {
-     background-color: rgb(13, 82, 82)
-
- }
+body {
+    color: rgb(173, 50, 71);
+ background-color: rgb(27, 22, 22)
+    
+}
 h1 {
-    color:rgb(6, 39, 109);
-    font-family: 'Lobster', cursive;
-    text-align: center;
+    color: rgb(173, 50, 71);
     font-size: 50px;
-     }
+    text-shadow: -1px -1px 0px
+    rgba(255,255,255,0.3), 15px 5px 5px 
+    rgba(0,0,0,0.8); 
+    opacity: 0.9;
+}
 h2 {
-    color:rgb(6, 39, 109);
-    font-family: 'Mountains of Christmas', cursive;
-    font-size: 20px;
+    color:  rgb(173, 50, 71);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px
 }
-h3 {
-    color:rgb(6, 39, 109);
-    font-family: 'Mountains of Christmas', cursive;
-}
-
-h4 {
-    color:rgb(6, 39, 109);
-    font-family: 'Acme', sans-serif;
+a {
+    color: rgb(126, 35, 50);
 }
 button{
-    border: 10px rgb(6, 39, 109);
+    color: rgb(126, 35, 50);
+    margin: 25px;
+    border: 30px rgb(126, 35, 50);
     height: 40px;
     width: 120px;
     font-size: inherit;
-    padding-block-start: 0vmax;
-}
+    padding-block-start: inherit
+ }
   .hidden {
         visibility: hidden;
  }
-     
+

@@ -1,4 +1,4 @@
-import compareNumbers from '../src/guessnumber.js';
+import compareNumbers from './src/guessnumber.js';
 
 const test = QUnit.test;
 
@@ -25,6 +25,7 @@ test('compare numbers returns 0 when numbers are equal', (assert) => {
             const guess = 7;
             const correctNumber = 6;
             const expected = +1;
+            const result = compareNumbers(guess, correctNumber);
             assert.equal(result, expected);
         });
     });

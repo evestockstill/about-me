@@ -13,7 +13,7 @@
 <body>
     <header>
         <h1>
-            Guess my Number!
+            <p id "text">Guess my Number</p>
         </h1>
     <nav>
         <a href="./">Home</a>
@@ -30,12 +30,14 @@
         <img id="gameOver" class="hidden" src="assest/game over.png" alt="game over">        
         <img id="tryAgain" class="hidden" src="assest/try again.png" alt="try again">      
     </div>
-    
+    <h3>
+        <p id="triesLeft"><span>4 tries left</span>  
+            </p>
+              
+            
      <section>
          <h3>Guess your number here <input id="number?">
                 <button id="submitButton">Guess!</button>
-        </h3>
-                <span id="triesLeft"></span>
      </section>
     </header>
          <script type="module" src="src/guess.js"></script> 
