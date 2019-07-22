@@ -13,20 +13,20 @@ triesLeftDisplay.textContent = triesLeft;
 submitButton.addEventListener('click', () => {
 
     let guess = numberInput.value;
-    triesLeft += -1;
-    let result = compareNumbers(guess, correctNumber);
-    triesLeftDisplay.textContent = (triesLeft);
+    triesLeft = 4;
+    // let  = compareNumbers(guess, correctNumber);
+    // triesLeftDisplay.textContent = (triesLeft);
 
     numberInput.textContent = guess;
-    if(result === 0) {
+    if(guess === correctNumber) {
         youWin.classList.remove('hidden');
-        guess.disabled = false;
+        guess.disabled = true;
         gameOver.remove ('hidden');
     }
-    else if(result === -1) {
+    else if(guess < correctNumber) {
         tryAgain.classList.remove('hidden');
     }
-    else if(result === 1) {
+    else if(guess > correctNumber) {
         tryAgain.classList.remove('hidden');
        
     }
