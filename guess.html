@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Guess My Number</title>
+
+    <link rel="stylesheet" href="src/main.css">
+    <link rel="stylesheet" href="src/guess.css">
+</head>
+<body>
+    <header>
+        <h1>
+            <p id ="text">Guess my Number</p>
+        </h1>
+    <nav>
+        <a href="./">Home</a>
+        <a href="guess.html">Guess Numbers</a>
+    </nav>
+    <section>
+        <h2>
+         Lets play a guessing game! The rules are that you have 4 tries to guess my number between 1 -20
+        </h2>
+    </section>
+
+    <div>
+        <img id="youWin" class="hidden" src="./assest/you win.png" alt="you win">         
+        <img id="gameOver" class="hidden" src="assest/game over.png" alt="game over">        
+        <img id="tryAgain" class="hidden" src="assest/try again.png" alt="try again">      
+    </div>
+    <div id ="triesLeft"><span>Tries Remaing</span>
+          
+        </div>      
+     <section>
+         <h3>Guess your number here <input id="number?">
+                <button id="submitButton">Guess!</button>
+     </section>
+    </header>
+         <script type="module" src="./src/guess.js"></script> 
+</body>
+</html>
