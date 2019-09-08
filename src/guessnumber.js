@@ -1,10 +1,10 @@
 
 
-function compareNumbers(guess, correctNumber) {
+function compareNumbers(userChoice, correctNumber) {
     
-    if(guess === correctNumber) {
+    if(userChoice === correctNumber) {
         return 0;
-    } else if(guess < correctNumber) {
+    } else if(userChoice < correctNumber) {
         return -1;
     } else {
         return 1;
